@@ -1,0 +1,14 @@
+# --- Secrets: never commit ---
+# Anyone deploying this repo will create their own local key/credential files.
+# These must never be pushed to GitHub.
+lseg-data.config.json
+TOOLS.md
+*.key
+*.env
+.env
+
+# --- Backups & noise ---
+*.bak
+*.bak2
+*.log
+.DS_Store
